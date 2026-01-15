@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="400" viewBox="0 0 350 400">
+  <style>
+    .outline { stroke: black; stroke-width: 1.2; fill: none; }
+    .hidden { stroke: black; stroke-width: 0.6; fill: none; stroke-dasharray: 6,2; }
+    .centerline { stroke: black; stroke-width: 0.4; fill: none; stroke-dasharray: 12,2,2,2; }
+  </style>
+  
+  <!-- ?? -->
+  <rect width="350" height="400" fill="white"/>
+  
+  <!-- ??? - ?????? -->
+  <g transform="translate(75, 50)">
+    
+    <!-- ???????? -->
+    <rect x="60" y="0" width="80" height="60" class="outline"/>
+    
+    <!-- ????????? -->
+    <line x1="0" y1="60" x2="60" y2="60" class="outline"/>
+    <line x1="140" y1="60" x2="200" y2="60" class="outline"/>
+    
+    <!-- ????? -->
+    <line x1="0" y1="60" x2="0" y2="140" class="outline"/>
+    
+    <!-- ????? -->
+    <line x1="200" y1="60" x2="200" y2="140" class="outline"/>
+    
+    <!-- ??? -->
+    <line x1="0" y1="140" x2="60" y2="140" class="outline"/>
+    <line x1="140" y1="140" x2="200" y2="140" class="outline"/>
+    
+    <!-- ?????????? -->
+    <line x1="60" y1="60" x2="60" y2="140" class="outline"/>
+    <line x1="140" y1="60" x2="140" y2="140" class="outline"/>
+    
+    <!-- ?????? -->
+    <line x1="60" y1="140" x2="140" y2="140" class="outline"/>
+    
+    <!-- ?? - ????????????? -->
+    <circle cx="100" cy="100" r="35" class="outline"/>
+    
+    <!-- ???????????? -->
+    <circle cx="100" cy="100" r="25" class="hidden"/>
+    
+    <!-- ??? - ?? -->
+    <line x1="50" y1="100" x2="150" y2="100" class="centerline"/>
+    
+    <!-- ??? - ?? -->
+    <line x1="100" y1="-15" x2="100" y2="155" class="centerline"/>
+    
+    <!-- ???????? -->
+    <line x1="0" y1="60" x2="15" y2="75" class="outline"/>
+    <line x1="15" y1="75" x2="15" y2="125" class="hidden"/>
+    <line x1="0" y1="140" x2="15" y2="125" class="outline"/>
+    
+    <!-- ???????? -->
+    <line x1="200" y1="60" x2="185" y2="75" class="outline"/>
+    <line x1="185" y1="75" x2="185" y2="125" class="hidden"/>
+    <line x1="200" y1="140" x2="185" y2="125" class="outline"/>
+    
+  </g>
+  
+</svg>
